@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="gold">
+        <item>전체</item>
+        <item>입고</item>
+        <item>사용</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "775513129509",
+    "project_id": "genty-79ad2",
+    "storage_bucket": "genty-79ad2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:775513129509:android:143efb7786f9ca6f1175cc",
+        "android_client_info": {
+          "package_name": "gbsoft.com.dental_gb"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "775513129509-0iqe9fsr8edtheam8lo8le5bjhi7t0md.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "gbsoft.com.dental_gb",
+            "certificate_hash": "0c2364b483783e51a5cb3c1e12439cf3ce137697"
+          }
+        },
+        {
+          "client_id": "775513129509-mbhdd7hdkucp8n758uounf31eisf9n3o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA8xrTBh3_l66zmowhhxPaeDEdnEetVxSY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "775513129509-mbhdd7hdkucp8n758uounf31eisf9n3o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

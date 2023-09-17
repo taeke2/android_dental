@@ -1,0 +1,233 @@
+<resources>
+    <string name="app_name">Dental_gb</string>
+
+    <string-array name="faultyTypeArray">
+        <item>불량1</item>
+        <item>불량2</item>
+        <item>불량3</item>
+        <item>불량4</item>
+        <item>불량5</item>
+    </string-array>
+
+    <style name="SwitchButtonStyle">
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">10dp</item>
+        <item name="android:paddingTop">4dp</item>
+        <item name="android:paddingBottom">4dp</item>
+    </style>
+
+    <string name="title_activity_side_menu">SideMenuActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="request_date">의뢰일자</string>
+    <string name="deadlline_date">마감일자</string>
+    <string name="all">전체</string>
+    <string name="warehousing">입고</string>
+    <string name="out">출고</string>
+    <string name="ok">확인</string>
+    <string name="cancel">취소</string>
+    <string name="exit">종료</string>
+    <string name="yes">예</string>
+    <string name="no">아니오</string>
+    <string name="close">닫기</string>
+    <string name="logout">로그아웃</string>
+    <string name="faulty">불량</string>
+    <string name="do_out">출고하기</string>
+    <string name="error_title">오류</string>
+    <string name="delete">삭제</string>
+
+
+    <string name="internet_check">인터넷 연결을 확인해주십시오.</string>
+    <string name="invalid_barcode">유효하지 않는 바코드입니다.</string>
+    <string name="defective_product">공정 불량 제품입니다.</string>
+    <string name="complete_product">공정이 완료된 제품입니다.</string>
+    <string name="shut_down_on">shutdown 기능이 활성화되어 앱 사용이 제한됩니다.</string>
+    <string name="init">초기화 되었습니다.</string>
+    <string name="enter_search">검색어를 입력해주세요.</string>
+    <string name="none_gold_data">gold 데이터가 존재하지 않습니다.</string>
+    <string name="none_gold_in">gold 입고 데이터가 존재하지 않습니다.</string>
+    <string name="none_gold_inout">gold 입/출고 데이터가 존재하지 않습니다.</string>
+    <string name="select_request_first">의뢰서 정보를 먼저 선택하세요.</string>
+    <string name="select_used_gold">사용한 gold를 선택하세요.</string>
+    <string name="select_request">의뢰서 정보를 선택하세요.</string>
+    <string name="select_product">의뢰제품정보를 선택하세요.</string>
+    <string name="enter_gold_using">gold 사용량을 입력하세요.</string>
+    <string name="none_data">데이터가 존재하지 않습니다.</string>
+    <string name="faulty_num_empty">불량수량이 비어있습니다.</string>
+    <string name="wrong_in_out_num">불량수량이 입고수량보다 많을 수 없습니다.</string>
+    <string name="exit_faulty_ask">불량 등록을 종료하시겠습니까?</string>
+    <string name="exit_faulty">불량 등록 종료</string>
+    <string name="all_faulty">모든 입고수량을 불량수량으로 등록합니다.</string>
+    <string name="enter_id">아이디를 입력해주세요.</string>
+    <string name="enter_pw">비밀번호를 입력해주세요.</string>
+    <string name="select_factory">기공소를 선택해주세요.</string>
+    <string name="wrong_id_pw">아이디 또는 비밀번호가 일치하지 않습니다.</string>
+    <string name="check_id_pw">아이디 혹은 비밀번호를 확인해주세요.</string>
+    <string name="no_authority">앱 접근권한이 없습니다.\n관리자에게 문의하세요.</string>
+    <string name="exit_app">한번 더 누르면 종료됩니다.</string>
+    <string name="empty_content">내용을 입력하세요.</string>
+    <string name="content_maximum">글자수가 500자를 초과하였습니다.</string>
+    <string name="saved">저장되었습니다.</string>
+    <string name="removed">삭제되었습니다.</string>
+    <string name="registered">등록되었습니다.</string>
+    <string name="logout_ask">해당 계정에서 로그아웃합니다.</string>
+    <string name="order_edit_ask">공정을 수정하시겠습니까?</string>
+    <string name="order_edit">공정 수정</string>
+    <string name="complete_order">공정을 완료하였습니다.</string>
+    <string name="order_progress">정상적으로 공정이 진행되었습니다.</string>
+    <string name="single_barcode_scan">박스 등록이 완료되었습니다. %s</string>
+    <string name="arti_use">교합기 사용</string>
+    <string name="complete_order_fault">공정 불량처리 완료</string>
+    <string name="exit_order_ask">공정 진행을 종료하시겠습니까?</string>
+    <string name="order_finish">공정을 종료하었습니다.</string>
+    <string name="exit_order">공정 진행 종료</string>
+    <string name="all_data_print">모든 데이터가 출력되었습니다.</string>
+    <string name="error_occurs">"오류가 발생하였습니다.\n관리자에게 문의하세요."</string>
+    <string name="release_product_ask">해당 의뢰제품을 출고하시겠습니까?</string>
+    <string name="already_released">해당 의뢰제품은 이미 출고되었습니다.</string>
+    <string name="none_img_selected">사진이 선택되지 않았습니다.</string>
+    <string name="max_image1">사진은 최대 </string>
+    <string name="max_image2">개까지 가능합니다.</string>
+    <string name="max_once1">한번에 최대 </string>
+    <string name="max_once2">장까지 가능합니다.</string>
+    <string name="no_image_registered">등록된 사진이 없습니다. 사진을 등록해주세요.</string>
+    <string name="img_error">사진을 불러오는 중 오류가 발생했습니다.</string>
+    <string name="no_materials">입고된 자재 데이터가 존재하지 않습니다.</string>
+    <string name="client_delete">이 거래처를 삭제하시겠습니까?</string>
+
+
+    <string name="response_error_content">서버에서 응답이 없습니다. 관리자에게 문의하세요.</string>
+    <string name="connect_error_content">서버와 연결할 수 없습니다.</string>
+    <string name="catch_error_content">오류가 발생하였습니다. 관리자에게 문의하세요.</string>
+    <string name="user_name">사용자명</string>
+    <string name="user_id">사용자 ID</string>
+    <string name="request_list">의뢰서 조회</string>
+    <string name="process_situation">공정 현황</string>
+    <string name="material_management">자재 관리</string>
+    <string name="material_search_hint">자재명, 거래처명</string>
+    <string name="register_faulty">불량등록</string>
+    <string name="in_date">입고일자</string>
+    <string name="in_num">입고수량</string>
+    <string name="material_name">자재명</string>
+    <string name="client_name">거래처명</string>
+    <string name="materials_in_info">자재입고정보</string>
+    <string name="faulty_content">불량내역</string>
+    <string name="enter_faulty">불량내역을 입력하세요.</string>
+    <string name="faulty_num">불량수량</string>
+    <string name="enter_faulty_num">불량수량을 입력하세요.</string>
+    <string name="work_name">기공명</string>
+    <string name="process_name">공정명</string>
+    <string name="register_process_faulty">공정 진행 중인 기공물을 불량등록합니다.</string>
+    <string name="faulty_process">불량공정</string>
+    <string name="faulty_category">불량항목</string>
+    <string name="no_selected">선택없음</string>
+    <string name="check">체크사항</string>
+    <string name="remark">비고</string>
+    <string name="start_process">공정진행</string>
+    <string name="enter_remark">비고 입력</string>
+    <string name="start_process2">선택한 공정으로 공정을 진행합니다.</string>
+    <string name="product">제품</string>
+    <string name="process_detail">공정상세</string>
+    <string name="process">공정</string>
+    <string name="gold_management">골드 관리</string>
+    <string name="gold">gold</string>
+    <string name="register">등록</string>
+    <string name="using_gold_register">gold 사용량 등록</string>
+    <string name="request_search_click">클릭하여 의뢰서 정보 검색</string>
+    <string name="request_info">의뢰서 정보</string>
+    <string name="request_product_info">의뢰제품정보</string>
+    <string name="gold_using">사용량</string>
+    <string name="gold_used">소모량</string>
+    <string name="gold_request_search">의뢰서 정보 검색</string>
+    <string name="patient_search">환자명 검색</string>
+    <string name="patient_name">환자명</string>
+    <string name="release_management">출고 관리</string>
+    <string name="memo">메모</string>
+    <string name="call">전화</string>
+    <string name="photo">사진</string>
+    <string name="save">저장</string>
+    <string name="monitoring">생산 모니터링</string>
+    <string name="equipment_management">설비 관리</string>
+    <string name="qr_scan">QR코드 스캔</string>
+    <string name="barcode_scan">바코드 스캔</string>
+    <string name="request_management">의뢰서 조회</string>
+    <string name="finish_scan">공정 시작/종료</string>
+    <string name="added_barcode">이미 추가된 바코드입니다. (%s)</string>
+    <string name="permission_check">권한 허용이 필요합니다.</string>
+    <string name="permission_camera">카메라 권한 허용이 필요합니다.</string>
+    <string name="notice">공지사항</string>
+    <string name="client_management">거래처 조회</string>
+    <string name="my_info">내 정보 관리</string>
+    <string name="search">검색</string>
+    <string name="title_search">제목 검색</string>
+    <string name="title">제목</string>
+    <string name="none_notice">공지사항이 없습니다.</string>
+    <string name="writer">작성자</string>
+    <string name="write_date">작성일자</string>
+    <string name="client">거래처</string>
+    <string name="client_search">거래처 검색</string>
+    <string name="none_client">거래처가 없습니다.</string>
+    <string name="box_no">(%d번 BOX)</string>
+    <string name="dialog_box_no">%d번 BOX</string>
+    <string name="parenthesis">(%s)</string>
+    <string name="order_deadline_date">%s ~ %s %s</string>
+    <string name="box_scan">박스 번호 등록</string>
+    <string name="articulator_yn">교합기 사용 여부</string>
+    <string name="scaned_barcode">스캔한 바코드</string>
+    <string name="longclick_arti">(교합기 선택/취소 : 박스번호 2초간 클릭)</string>
+    <string name="dialog_process_start">공정 시작</string>
+    <string name="dialog_process_finish">공정 종료</string>
+    <string name="articulator_select">사용할 교합기를 선택해주세요.</string>
+    <string name="apply">적용</string>
+    <string name="barcode_exist">이미 추가된 바코드입니다.</string>
+
+    <string name="request_form">의뢰서</string>
+    <string name="equipment_name">설비명</string>
+    <string name="SN">S/N</string>
+    <string name="introduction_date">도입일자</string>
+    <string name="vendor">납품업체</string>
+    <string name="person_in_charge_of_vendor">납품담당자</string>
+    <string name="phone_number">전화번호</string>
+    <string name="email">이메일</string>
+    <string name="AS_number">A/S Tel.</string>
+    <string name="monitoring_">모니터링</string>
+    <string name="equipment_list">설비목록</string>
+    <string name="equipment_power_switch">설비 On/Off</string>
+
+    <string name="equipment_room_1">장비실 1</string>
+    <string name="equipment_room_2">장비실 2</string>
+
+    <string name="gold_management_">Gold 관리</string>
+    <string name="gold_inoutput_history">Gold 입출고 내역</string>
+    <string name="gold_inoutput_registry">Gold 입출고 등록</string>
+
+    <string name="gold_">Gold</string>
+
+    <string name="gold_using_">사용 / 소모량</string>
+
+    <string name="lemon_materials_registry">자재 불량 등록</string>
+
+    <string name="lemon_reason">불량사유</string>
+    <string name="search_hint">%s을 입력하세요.</string>
+    <string name="empty_result">검색결과가 없습니다.</string>
+    <string name="delete_client">이 거래처 삭제</string>
+
+    <string name="empty_arti">사용할 수 있는 교합기가 없습니다.</string>
+    <string name="arti_using">사용 중입니다. (사용자 : %s)</string>
+    <string name="process_success">%s 완료! (%d/%d)</string>
+    <string name="process_start">공정 시작 (%s - %s)</string>
+    <string name="process_name_select">%s : 공정명 선택</string>
+    <string name="process_auth_deny">해당 공정 담당이 아닙니다.</string>
+    <string name="process_restart">공정이 이미 등록되어 있습니다.\n다시 등록하시겠습니까?</string>
+    <string name="recent_alarm">최근 알람</string>
+    <string name="none_alarm">최근 일주일 내 알람이 없습니다.</string>
+</resources>

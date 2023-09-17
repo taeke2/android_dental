@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/layout_item"
+    android:layout_width="match_parent"
+    android:layout_height="80dp"
+    android:background="@drawable/accordion_shape"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="7"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txt_clientName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:text="OO치과"
+            android:textColor="@color/dark_gray"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_goldName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="3dp"
+            android:text="000골드"
+            android:textColor="@color/light_gray"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/txt_goldCount"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@drawable/gold_count_shape"
+        android:text="8"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF" />
+
+    <com.joanzapata.iconify.widget.IconTextView
+        android:id="@+id/btn_alarm"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="4dp"
+        android:gravity="center"
+        android:text="{fa-angle-right}"
+        android:textSize="20sp"
+        />
+</LinearLayout>
